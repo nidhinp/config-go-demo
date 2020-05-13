@@ -1,0 +1,9 @@
+apiVersion: skaffold/v2beta3
+kind: Config
+metadata:
+  name: config-godemo
+deploy:
+  kubectl:
+    manifests:
+    - deployment.yaml
+    - service.yaml

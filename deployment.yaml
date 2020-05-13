@@ -13,4 +13,4 @@ spec:
     spec:
       containers:
       - name: getting-started
-        image: nidhinmetocean/getting-started:v2.0.0
+        image: nidhinmetocean/getting-started
